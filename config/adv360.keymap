@@ -78,11 +78,11 @@
 
         Hyper {
             bindings = <
-&trans  &trans                 &trans                 &trans  &trans                 &trans  &trans                                      &trans  &trans  &trans                 &trans  &trans  &trans  &trans
-&trans  &trans                 &trans                 &trans  &kp LS(LC(LA(LG(R))))  &trans  &trans                                      &trans  &trans  &trans                 &trans  &trans  &trans  &trans
-&trans  &kp LA(LS(LC(LG(A))))  &trans                 &trans  &kp LS(LA(LC(LG(F))))  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans                 &trans  &trans  &trans  &trans
-&trans  &trans                 &kp LS(LA(LC(LG(X))))  &trans  &trans                 &trans                  &trans      &trans                  &trans  &kp RS(RA(RC(RG(M))))  &trans  &trans  &trans  &trans
-&trans  &trans                 &trans                 &trans  &trans                         &trans  &trans  &trans      &trans  &trans  &trans          &trans                 &trans  &trans  &trans  &trans
+&trans  &trans                 &trans                 &trans  &trans                 &trans  &trans                                                         &trans  &trans  &trans                 &trans  &trans  &trans  &trans
+&trans  &trans                 &trans                 &trans  &kp LS(LC(LA(LG(R))))  &trans  &trans                                                         &trans  &trans  &trans                 &trans  &trans  &trans  &trans
+&trans  &kp LA(LS(LC(LG(A))))  &trans                 &trans  &kp LS(LA(LC(LG(F))))  &trans  &trans                     &trans  &trans      &trans  &trans  &trans  &trans  &trans                 &trans  &trans  &trans  &trans
+&trans  &trans                 &kp LS(LA(LC(LG(X))))  &trans  &trans                 &trans                                     &trans      &trans                  &trans  &kp RS(RA(RC(RG(M))))  &trans  &trans  &trans  &trans
+&trans  &trans                 &trans                 &trans  &trans                         &kp LA(LS(LC(LG(SPACE))))  &trans  &trans      &trans  &trans  &trans          &trans                 &trans  &trans  &trans  &trans
             >;
         };
     };
